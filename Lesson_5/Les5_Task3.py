@@ -11,7 +11,7 @@ with open('L5_t3.txt', 'r', encoding='UTF-8') as my_file:
         s += float(my_list.split(' ')[1])
         i += 1
 
-    print('Средняя величина дохода сотрудников:', s/i)
+    print('Средняя заработная плата сотрудников:', s/i)
 
 
 
