@@ -16,13 +16,3 @@ my_list2=my_list1.split(' ')
 print(num(my_list2))
 
 my_file.close()
-
-
-
-
-
-# sum_num2=()
-# with open("L5_T5.txt", "w+") as my_list:
-#     my_list.write(int(input('Введите числа через пробел:').split(' ')))
-#     my_list.append(sum_num2)
-#     print(sum(sum_num2))

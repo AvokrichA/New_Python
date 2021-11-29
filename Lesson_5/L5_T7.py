@@ -17,7 +17,7 @@ list1={}
 med_prft={}
 rev=0
 costs=0
-with open('L5_T7.py','r', encoding='UTF-8') as f_obj:
+with open('Les5_t7.txt','r', encoding='UTF-8') as f_obj:
     while True:
         my_file = f_obj.readline().split()
         if not my_file:
@@ -25,7 +25,7 @@ with open('L5_T7.py','r', encoding='UTF-8') as f_obj:
         prft = int(my_file[2]) - int(my_file[3])
         if prft>0:
             rev+=1
-            s += prft
+            costs += prft
         list1[my_file[0]]=prft
 med_prft=costs/rev
 result = [list1, med_prft]
