@@ -15,4 +15,3 @@ class Road:
 
 m = Road(100, 4)
 print(m.get_weight(0.145, 6))
-
