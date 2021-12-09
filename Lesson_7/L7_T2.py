@@ -27,24 +27,15 @@ class Coat(Clothes):
         return self.size / 6.5 + 0.5
 
 class Costume(Clothes):
-    def __init__(self, size):
-       self.size = size
+    def __init__(self, height):
+       self.height = height
 
     @property
     def consumption(self):
-        return  2 * self.size  + 0.3
-
-    def total_consumption(self, total_list):
-        i=0
-        for j in total_list:
-            i+=total_consumption
-            return i
-
-
+        return  2 * self.height  + 0.3
 
 
 coat = Coat(1)
 costume = Costume(1.98)
 print(coat.consumption)
-print(costume.consumption())
-print(coat.abstract())
+print(costume.consumption)
